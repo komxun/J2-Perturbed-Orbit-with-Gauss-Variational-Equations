@@ -7,9 +7,13 @@
 
 
 # Gauss's Variational Equations
-![image](https://github.com/komxun/J2-Perturbed-Orbit-with-Gauss-Variational-Equations/assets/133139057/74b180f9-a3e4-40ef-ae9c-72a0e9e85353)
+|![image](https://github.com/komxun/J2-Perturbed-Orbit-with-Gauss-Variational-Equations/assets/133139057/74b180f9-a3e4-40ef-ae9c-72a0e9e85353)|
+|:--:|
 
-![image](https://github.com/komxun/J2-Perturbed-Orbit-with-Gauss-Variational-Equations/assets/133139057/4e6db1c8-62d3-4e8c-8bd7-ea669a11bcae)
+where
+
+|![image](https://github.com/komxun/J2-Perturbed-Orbit-with-Gauss-Variational-Equations/assets/133139057/3d3fb5fc-511f-45c2-9c56-5ae075c450f6)|
+|:--:|
 
 This has been coded in **gauss-var.m function**
 https://github.com/komxun/J2-Perturbed-Orbit-with-Gauss-Variational-Equations/blob/bbd99124097e1525595ac9b072cf3cb84d7de19f/gauss_var.m#L17-L26
