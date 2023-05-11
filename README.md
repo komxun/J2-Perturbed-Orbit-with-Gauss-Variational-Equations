@@ -25,5 +25,6 @@ https://github.com/komxun/J2-Perturbed-Orbit-with-Gauss-Variational-Equations/as
 ## CoE Variations
 ![CoE](https://github.com/komxun/J2-Perturbed-Orbit-with-Gauss-Variational-Equations/assets/133139057/17bab724-b648-4d04-8f4a-e6c91430badf)
 
-
+# Reference
+[1] H. Curtis,_ Orbital mechanics for engineering students_, Butterworth-Heinemann, 2013.
 
