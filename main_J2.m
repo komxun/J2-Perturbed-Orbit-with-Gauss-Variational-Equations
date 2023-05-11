@@ -1,5 +1,5 @@
 clc, clear, close all
-
+animation = 1;
 % parameters
 mu = 398600.5;
 J2 = 0.00108263;
@@ -57,16 +57,25 @@ vz = zeros(1, length(time_p));
 a_p = zeros(1, length(time_p));  % semi-major axis
 
 %----------------------------------Animation ----------------------------------------------
-% curve = animatedline('LineWidth', 1);
-% set(gca, 'XLim', [-1e4 1e4], 'YLim', [-1e4 1e4], 'ZLim', [-1e4, 4e4]);
-% grid on, hold on
-% view(-42,42)
-% title('Molniya Orbit','FontSize',16)
-% xlabel('x')
-% ylabel('y')
-% zlabel('z')
-% % head = scatter3(Earth(1), Earth(2), Earth(3), 2000, 'filled', 'MarkerFaceColor','b')
-% set(gcf, 'WindowState', 'maximized');
+if animation
+    curve = animatedline('LineWidth', 1);
+    
+    grid on, hold on, axis equal
+    view(-42,42)
+    title('Molniya Orbit','FontSize',16)
+    xlabel('x')
+    ylabel('y')
+    zlabel('z')
+    % plot Earth
+    [x,y,z] = sphere;
+    x = x*R;   % Earth real radius
+    y = y*R;
+    z = z*R; 
+    surf(x,y,z)
+    shading interp      % turn this on to remove Earth's edges
+    alpha 0.1
+    set(gcf, 'WindowState', 'maximized');
+end
 %---------------------------------------------------------------------------------------
 
 %% Computing position and velocity from CoE
@@ -93,11 +102,15 @@ for j = 1:length(time_p)
     vz(j) = v_ijk(3);
     
     %---------------------------Animation-------------------------------------------------
-%     title(num2str(time_p(j)/(60*60),'time = %4.0f hrs'));
-%     addpoints(curve, r_ijk(1), r_ijk(2), r_ijk(3));
-%     head = scatter3(r_ijk(1), r_ijk(2), r_ijk(3), 50, 'filled', 'MarkerFaceColor','r');
-%     drawnow
-%     delete(head)
+    if animation
+
+        title(num2str(time_p(j)/(60*60),'time = %4.0f hrs'));
+        addpoints(curve, r_ijk(1), r_ijk(2), r_ijk(3));
+        head = scatter3(r_ijk(1), r_ijk(2), r_ijk(3), 50, 'filled', 'MarkerFaceColor','r');
+        drawnow
+        delete(head)
+
+    end
     %-------------------------------------------------------------------------------------
 end
 
