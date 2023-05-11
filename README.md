@@ -11,6 +11,8 @@
 
 ![image](https://github.com/komxun/J2-Perturbed-Orbit-with-Gauss-Variational-Equations/assets/133139057/4e6db1c8-62d3-4e8c-8bd7-ea669a11bcae)
 
+This has been coded in **gauss-var.m function**
+https://github.com/komxun/J2-Perturbed-Orbit-with-Gauss-Variational-Equations/blob/bbd99124097e1525595ac9b072cf3cb84d7de19f/gauss_var.m#L17-L26
 
 # Results
 
