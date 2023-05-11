@@ -18,8 +18,7 @@
 ![J2_48hrs](https://github.com/komxun/J2-Perturbed-Orbit-with-Gauss-Variational-Equations/assets/133139057/ba1d48fd-a2aa-4fa1-976e-99ed08130bd0)
 
 ## Animated Simulation
-https://github.com/komxun/J2-Perturbed-Orbit-with-Gauss-Variational-Equations/assets/133139057/f35d3002-4763-44fe-b49c-750cd7f277aa
-
+https://github.com/komxun/J2-Perturbed-Orbit-with-Gauss-Variational-Equations/assets/133139057/78342a1e-6b3f-4794-9a17-f15587bca322
 
 ## CoE Variations
 ![CoE](https://github.com/komxun/J2-Perturbed-Orbit-with-Gauss-Variational-Equations/assets/133139057/17bab724-b648-4d04-8f4a-e6c91430badf)
